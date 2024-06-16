@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+
+</head>
+
+<body>
+    <!-- start Header -->
+    <section class="h-20 flex justify-center bg-white border-b fixed w-full">
+        <img src="./media/bioniqa-withTextBlack-logogramStroke.png" alt="" class="h-12 my-auto">
+    </section>
+    <!-- end Header -->
+
+    <!-- start main -->
+    <section>
+        <!-- start quality title -->
+        <section class="pt-20">
+            <div class="grid grid-cols-4 gap-4 p-4">
+                <!-- start air quality -->
+                <div class="col-span-2 bg-green-500 p-4 rounded-md  grid grid-cols-2">
+                    <div>
+                        <div class="text-white font-semibold text-sm uppercase">Air Quality</div>
+                        <div class="flex space-x-2 pt-2">
+                            <div class="font-normal text-6xl text-white">43</div>
+                            <div class="uppercase flex self-end text-sm font-light text-white">us aqi
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-white rounded-md text-center">
+                        <div class="text-lg uppercase font-normal text-slate-800">Awesome</div>
+                        <div class="text-sm font-light text-slate-600">Air quality is great and air pollution poses
+                            little or no risk</div>
+                    </div>
+                </div>
+                <!-- end  air quality -->
+
+                <!-- start Total CO2 absorption -->
+                <div class="col-span-1">
+                    <div class="bg-slate-100 p-4 rounded-md  h-full space-y-3">
+                        <div>
+                            <div class="text-slate-800 font-semibold text-sm uppercase">Total CO2 absorption</div>
+                            <div class="text-slate-700 text-sm font-light">(Today)</div>
+                        </div>
+                        <div class="flex space-x-2">
+                            <div class="font-medium text-4xl text-slate-800">87,4</div>
+                            <div class="self-end text-sm text-slate-600 font-light">Gram</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end Total CO2 absorption -->
+
+                <!-- start PM 2.5 Reduction -->
+                <div class="col-span-1">
+                    <div class="bg-slate-100 p-4 rounded-md  h-full space-y-3">
+                        <div>
+                            <div class="text-slate-800 font-semibold text-sm uppercase">PM 2.5 Reduction</div>
+                            <div class="text-slate-700 text-sm font-light">(Realtime)</div>
+                        </div>
+                        <div class="flex space-x-2">
+                            <div class="font-medium text-4xl text-slate-800">52</div>
+                            <div class="self-end text-sm text-slate-600 font-light">μg/m3</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end  quality title -->
+
+        <!-- start quality title -->
+        <section>
+            <div class="grid grid-cols-4 gap-4 px-4">
+                <!-- start Tank -->
+                <div class="col-span-2 rounded-md  grid grid-cols-4 gap-2">
+                    <!-- start tank 1 -->
+                    <div class="border rounded-md">
+                        <div class="text-center font-semibold text-slate-800 py-2 text-sm bg-slate-100">Tank 1</div>
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="thermometer" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">Temperature</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="droplets" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">Hummidity</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="thermometer" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">PM 2.5</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="inspection-panel" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">pH</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+                    </div>
+                    <!-- end tank 1 -->
+
+                    <!-- start tank 2 -->
+                    <div class="border rounded-md">
+                        <div class="text-center font-semibold text-slate-800 py-2 text-sm bg-slate-100">Tank 2</div>
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="thermometer" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">Temperature</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="droplets" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">Hummidity</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="thermometer" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">PM 2.5</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="inspection-panel" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">pH</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+                    </div>
+                    <!-- end tank 2 -->
+
+                    <!-- start tank 3 -->
+                    <div class="border rounded-md">
+                        <div class="text-center font-semibold text-slate-800 py-2 text-sm bg-slate-100">Tank 3</div>
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="thermometer" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">Temperature</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="droplets" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">Hummidity</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="thermometer" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">PM 2.5</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="inspection-panel" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">pH</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+                    </div>
+                    <!-- end tank 3 -->
+
+                    <!-- start tank 4 -->
+                    <div class="border rounded-md">
+                        <div class="text-center font-semibold text-slate-800 py-2 text-sm bg-slate-100">Tank 4</div>
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="thermometer" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">Temperature</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="droplets" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">Hummidity</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="thermometer" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">PM 2.5</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+
+                        <section class="border-b py-4 space-y-2">
+                            <div class="flex px-2">
+                                <i data-lucide="inspection-panel" class="flex-none h-5"></i>
+                                <div class="font-semibold text-xs my-auto">pH</div>
+                            </div>
+                            <!-- progres meter -->
+                            <div class="relative w-full px-2">
+                                <div class="px-2 my-auto flex h-full">
+                                    <div class="absolute h-full flex">
+                                        <div class="my-auto h-2 w-20 rounded-full bg-green-500"></div>
+                                    </div>
+                                </div>
+                                <div class="h-4 w-full rounded-full bg-slate-100"></div>
+                            </div>
+                            <!-- end progres meter -->
+                        </section>
+                    </div>
+                    <!-- end tank 4 -->
+                </div>
+                <!-- end  Tank -->
+
+                <!-- start Total CO2 absorption -->
+                <div class="col-span-2">
+                    <div class="bg-white p-4 rounded-md  h-full space-y-3">
+                        <div>
+                            <div class="text-slate-800 font-semibold text-sm uppercase">Total CO2 absorption</div>
+                        </div>
+                        <div>
+                            <img src="./media/exp-chart.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- end Total CO2 absorption -->
+
+
+            </div>
+        </section>
+        <!-- end  quality title -->
+    </section>
+    <!-- end main -->
+
+
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
